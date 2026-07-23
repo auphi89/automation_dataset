@@ -1,0 +1,5 @@
+requests==2.31.0
+urllib3==1.22
+PyYAML==5.0
+Jinja2==2.11.2
+Pillow==10.1.0

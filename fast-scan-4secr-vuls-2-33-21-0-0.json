@@ -1,0 +1,2539 @@
+{
+  "$schema": "https://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-20T10:28:00Z",
+    "component": {
+      "bom-ref": "U1ZOIFRlc3RpbmcvL2Zhc3Qtc2Nhbi1zaW5nbGVmaWxl:trunk",
+      "type": "application",
+      "name": "fast-scan-singlefile",
+      "version": "trunk"
+    },
+    "tools": [
+      {
+        "vendor": "OPSWAT Inc.",
+        "name": "MetaDefender Software Supply Chain",
+        "version": "1.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:rubygems/addressable@2.3.6",
+      "type": "library",
+      "name": "addressable",
+      "version": "2.3.6",
+      "purl": "pkg:rubygems/addressable@2.3.6",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/i18n@0.6.9",
+      "type": "library",
+      "name": "i18n",
+      "version": "0.6.9",
+      "purl": "pkg:rubygems/i18n@0.6.9",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/json@1.8.1",
+      "type": "library",
+      "name": "json",
+      "version": "1.8.1",
+      "purl": "pkg:rubygems/json@1.8.1",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/tzinfo@0.3.39",
+      "type": "library",
+      "name": "tzinfo",
+      "version": "0.3.39",
+      "purl": "pkg:rubygems/tzinfo@0.3.39",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/http@0.6.1",
+      "type": "library",
+      "name": "http",
+      "version": "0.6.1",
+      "purl": "pkg:rubygems/http@0.6.1",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/memoizable@0.4.2",
+      "type": "library",
+      "name": "memoizable",
+      "version": "0.4.2",
+      "purl": "pkg:rubygems/memoizable@0.4.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:rubygems/activemodel@3.2.18",
+      "type": "library",
+      "name": "activemodel",
+      "version": "3.2.18",
+      "purl": "pkg:rubygems/activemodel@3.2.18",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/arel@3.0.3",
+      "type": "library",
+      "name": "arel",
+      "version": "3.0.3",
+      "purl": "pkg:rubygems/arel@3.0.3",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/buftok@0.2.0",
+      "type": "library",
+      "name": "buftok",
+      "version": "0.2.0",
+      "purl": "pkg:rubygems/buftok@0.2.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/faraday@0.9.0",
+      "type": "library",
+      "name": "faraday",
+      "version": "0.9.0",
+      "purl": "pkg:rubygems/faraday@0.9.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/http_parser.rb@0.6.0",
+      "type": "library",
+      "name": "http_parser.rb",
+      "version": "0.6.0",
+      "purl": "pkg:rubygems/http_parser.rb@0.6.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/naught@1.0.0",
+      "type": "library",
+      "name": "naught",
+      "version": "1.0.0",
+      "purl": "pkg:rubygems/naught@1.0.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/pg@0.17.1",
+      "type": "library",
+      "name": "pg",
+      "version": "0.17.1",
+      "purl": "pkg:rubygems/pg@0.17.1",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/simple_oauth@0.2.0",
+      "type": "library",
+      "name": "simple_oauth",
+      "version": "0.2.0",
+      "purl": "pkg:rubygems/simple_oauth@0.2.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/sqlite3@1.3.9",
+      "type": "library",
+      "name": "sqlite3",
+      "version": "1.3.9",
+      "purl": "pkg:rubygems/sqlite3@1.3.9",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/thread_safe@0.3.3",
+      "type": "library",
+      "name": "thread_safe",
+      "version": "0.3.3",
+      "purl": "pkg:rubygems/thread_safe@0.3.3",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/tilt@1.4.1",
+      "type": "library",
+      "name": "tilt",
+      "version": "1.4.1",
+      "purl": "pkg:rubygems/tilt@1.4.1",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/multipart-post@2.0.0",
+      "type": "library",
+      "name": "multipart-post",
+      "version": "2.0.0",
+      "purl": "pkg:rubygems/multipart-post@2.0.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/twitter@5.9.0",
+      "type": "library",
+      "name": "twitter",
+      "version": "5.9.0",
+      "purl": "pkg:rubygems/twitter@5.9.0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/rack@1.5.2",
+      "type": "library",
+      "name": "rack",
+      "version": "1.5.2",
+      "purl": "pkg:rubygems/rack@1.5.2",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/builder@3.0.4",
+      "type": "library",
+      "name": "builder",
+      "version": "3.0.4",
+      "purl": "pkg:rubygems/builder@3.0.4",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/equalizer@0.0.9",
+      "type": "library",
+      "name": "equalizer",
+      "version": "0.0.9",
+      "purl": "pkg:rubygems/equalizer@0.0.9",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/multi_json@1.10.1",
+      "type": "library",
+      "name": "multi_json",
+      "version": "1.10.1",
+      "purl": "pkg:rubygems/multi_json@1.10.1",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/activerecord@3.2.18",
+      "type": "library",
+      "name": "activerecord",
+      "version": "3.2.18",
+      "purl": "pkg:rubygems/activerecord@3.2.18",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/activesupport@3.2.18",
+      "type": "library",
+      "name": "activesupport",
+      "version": "3.2.18",
+      "purl": "pkg:rubygems/activesupport@3.2.18",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:rubygems/sinatra@1.1.4",
+      "type": "library",
+      "name": "sinatra",
+      "version": "1.1.4",
+      "purl": "pkg:rubygems/sinatra@1.1.4",
+      "licenses": []
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:rubygems/addressable@2.3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/i18n@0.6.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/json@1.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/tzinfo@0.3.39",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/http@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/memoizable@0.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/activemodel@3.2.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/arel@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/buftok@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/faraday@0.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/http_parser.rb@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/naught@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/pg@0.17.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/simple_oauth@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/sqlite3@1.3.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/thread_safe@0.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/tilt@1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/multipart-post@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/twitter@5.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/rack@1.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/builder@3.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/equalizer@0.0.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/multi_json@1.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/activerecord@3.2.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/activesupport@3.2.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:rubygems/sinatra@1.1.4",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/addressable@2.3.6",
+          "versions": [
+            {
+              "version": "2.3.6",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-32740",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade addressable to version 2.8.0"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/addressable@2.3.6",
+          "versions": [
+            {
+              "version": "2.3.6",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-h27x-rffw-24p4",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade addressable to version 2.9.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv3"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv3"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/i18n@0.6.9",
+          "versions": [
+            {
+              "version": "0.6.9",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2014-10077",
+      "cwes": [
+        20
+      ],
+      "recommendation": "Upgrade i18n to version 0.8.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/json@1.8.1",
+          "versions": [
+            {
+              "version": "1.8.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-10663",
+      "cwes": [
+        20
+      ],
+      "recommendation": "Upgrade json to version 2.3.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 8.1,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/tzinfo@0.3.39",
+          "versions": [
+            {
+              "version": "0.3.39",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-31163",
+      "cwes": [
+        23,
+        22
+      ],
+      "recommendation": "Upgrade tzinfo to version 1.2.10, 0.3.61"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5.9,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 4.3,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.9,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/http@0.6.1",
+          "versions": [
+            {
+              "version": "0.6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2015-1828",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade http to version 0.7.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 10,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "critical",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 10,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-30123",
+      "cwes": [
+        150
+      ],
+      "recommendation": "Upgrade rack to version 2.2.3.1, 2.1.4.1, 2.0.9.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.9,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-34830",
+      "cwes": [
+        625
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-34826",
+      "cwes": [
+        770,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-34230",
+      "cwes": [
+        407,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 6.9,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2025-27111",
+      "cwes": [
+        117,
+        93
+      ],
+      "recommendation": "Upgrade rack to version 3.1.11, 3.0.13, 2.2.12"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2024-26146",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade rack to version 3.0.9.1, 2.2.8.1, 2.1.4.4, 2.0.9.4"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.8,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2024-26141",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.0.9.1, 2.2.8.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2024-25126",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade rack to version 3.0.9.1, 2.2.8.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "CISA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2023-27530",
+      "cwes": [
+        770,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.0.4.2, 2.2.6.3, 2.1.4.3, 2.0.9.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-44570",
+      "cwes": [
+        1333,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.0.4.1, 2.2.6.2, 2.1.4.2, 2.0.9.2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-30122",
+      "cwes": [
+        1333,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 2.2.3.1, 2.1.4.1, 2.0.9.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-8184",
+      "cwes": [
+        784,
+        20
+      ],
+      "recommendation": "Upgrade rack to version 2.2.3, 2.1.4"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 8.6,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 8.6,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-8161",
+      "cwes": [
+        548,
+        22
+      ],
+      "recommendation": "Upgrade rack to version 2.1.3"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-625h-95r8-8xpm",
+      "cwes": [
+        770,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 2.2.18"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-6xw4-3v39-52mm",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.3, 3.1.18, 2.2.20"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-7wqh-767x-r66v",
+      "cwes": [
+        23
+      ],
+      "recommendation": "Upgrade rack to version 3.1.12, 3.0.14, 2.2.13"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "0B0CA135-0B70-47E7-9F44-1890C2A1C46C"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-8vqr-qjwx-82mw",
+      "cwes": [
+        770,
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-gjh7-p2fx-99vx",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.1.14, 3.0.16, 2.2.14"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "0B0CA135-0B70-47E7-9F44-1890C2A1C46C"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-h2jq-g4cq-5ppq",
+      "cwes": [
+        200,
+        187
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "0B0CA135-0B70-47E7-9F44-1890C2A1C46C"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-mxw3-3hh2-x2mh",
+      "cwes": [
+        548,
+        22
+      ],
+      "recommendation": "Upgrade rack to version 3.2.5, 3.1.20, 2.2.22"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-p543-xpfm-54cp",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.2, 3.1.17, 2.2.19"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-w9pc-fmgc-vxvw",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.2, 3.1.17, 2.2.19"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-wpv5-97wm-hp9c",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade rack to version 3.2.2, 3.1.17, 2.2.19"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 6.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 4.8,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-34831",
+      "cwes": [
+        135,
+        130
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "low",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 3.7,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-26961",
+      "cwes": [
+        436
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.8,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2025-61780",
+      "cwes": [
+        913,
+        441,
+        200
+      ],
+      "recommendation": "Upgrade rack to version 3.2.3, 3.1.18, 2.2.20"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 6.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.7,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2025-25184",
+      "cwes": [
+        117,
+        93
+      ],
+      "recommendation": "Upgrade rack to version 3.1.10, 3.0.12, 2.2.11"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5.9,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 4.3,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 6.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2019-16782",
+      "cwes": [
+        208,
+        203
+      ],
+      "recommendation": "Upgrade rack to version 2.0.8, 1.6.12"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 6.1,
+          "method": "CVSSv3"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 4.3,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 6.1,
+          "method": "CVSSv3"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-16471",
+      "cwes": [
+        79
+      ],
+      "recommendation": "Upgrade rack to version 2.0.6, 1.6.11"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2015-3225",
+      "cwes": [],
+      "recommendation": "Upgrade rack to version 1.6.2, 1.5.4, 1.4.6"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-7mqq-6cf9-v2qp",
+      "cwes": [
+        625
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-q4qf-9j86-f5mh",
+      "cwes": [
+        180
+      ],
+      "recommendation": "Upgrade rack to version 3.2.6, 3.1.21, 2.2.23"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 4.2,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-vpfw-47h7-xj4g",
+      "cwes": [
+        613,
+        367,
+        362
+      ],
+      "recommendation": "Upgrade rack to version 2.2.14"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.4,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/rack@1.5.2",
+          "versions": [
+            {
+              "version": "1.5.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-whrj-4476-wvmp",
+      "cwes": [
+        79
+      ],
+      "recommendation": "Upgrade rack to version 3.2.5, 3.1.20, 2.2.22"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 9.8,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "critical",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 9.8,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "critical",
+          "source": {
+            "name": "CISA"
+          },
+          "score": 9.8,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activerecord@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-32224",
+      "cwes": [
+        502
+      ],
+      "recommendation": "Upgrade activerecord to version 7.0.3.1, 6.1.6.1, 6.0.5.1, 5.2.8.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "CISA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activerecord@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-44566",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade activerecord to version 7.0.4.1, 6.1.7.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activerecord@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2014-3482",
+      "cwes": [
+        89
+      ],
+      "recommendation": "Upgrade activerecord to version 3.2.19"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5.3,
+          "method": "CVSSv3"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activerecord@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2015-7577",
+      "cwes": [
+        284
+      ],
+      "recommendation": "Upgrade activerecord to version 5.0.0.beta1.1, 4.2.5.1, 4.1.14.1, 3.2.22.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 6.4,
+          "method": "CVSSv2"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activerecord@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2013-3221",
+      "cwes": [
+        89,
+        20
+      ],
+      "recommendation": "Upgrade activerecord to version 4.2.0"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activerecord@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-76r7-hhxj-r776",
+      "cwes": [
+        150
+      ],
+      "recommendation": "Upgrade activerecord to version 8.0.2.1, 7.2.2.2, 7.1.5.2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 6.6,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-33176",
+      "cwes": [
+        770,
+        400
+      ],
+      "recommendation": "Upgrade activesupport to version 8.1.2.1, 8.0.4.1, 7.2.3.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "low",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2023-22796",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade activesupport to version 7.0.4.1, 6.1.7.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 6.1,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-33170",
+      "cwes": [
+        79
+      ],
+      "recommendation": "Upgrade activesupport to version 8.1.2.1, 8.0.4.1, 7.2.3.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 6.9,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2026-33169",
+      "cwes": [
+        1333,
+        400
+      ],
+      "recommendation": "Upgrade activesupport to version 8.1.2.1, 8.0.4.1, 7.2.3.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2015-3227",
+      "cwes": [],
+      "recommendation": "Upgrade activesupport to version 4.2.2, 4.1.11"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 4.3,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2015-3226",
+      "cwes": [
+        79
+      ],
+      "recommendation": "Upgrade activesupport to version 4.2.2, 4.1.11, 3.2.22.5"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "CISA"
+          },
+          "score": 5.3,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/activesupport@3.2.18",
+          "versions": [
+            {
+              "version": "3.2.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-pj73-v5mw-pm9j",
+      "cwes": [
+        79
+      ],
+      "recommendation": "Upgrade activesupport to version 7.0.4.3, 6.1.7.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "low",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 2.7,
+          "method": "CVSSv4"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/sinatra@1.1.4",
+          "versions": [
+            {
+              "version": "1.1.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2025-61921",
+      "cwes": [
+        1333,
+        400
+      ],
+      "recommendation": "Upgrade sinatra to version 4.2.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          },
+          "score": 5,
+          "method": "CVSSv2"
+        },
+        {
+          "severity": "high",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 7.5,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/sinatra@1.1.4",
+          "versions": [
+            {
+              "version": "1.1.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-29970",
+      "cwes": [
+        426,
+        22
+      ],
+      "recommendation": "Upgrade sinatra to version 2.2.0"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.4,
+          "method": "CVSSv31"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          },
+          "score": 5.3,
+          "method": "CVSSv4"
+        },
+        {
+          "severity": "medium",
+          "source": {
+            "name": "SNYK"
+          },
+          "score": 5.4,
+          "method": "CVSSv31"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:rubygems/sinatra@1.1.4",
+          "versions": [
+            {
+              "version": "1.1.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-hxx2-7vcw-mqr3",
+      "cwes": [
+        807
+      ],
+      "recommendation": "Upgrade sinatra to version 4.1.0"
+    }
+  ]
+}
