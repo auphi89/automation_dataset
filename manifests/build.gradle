@@ -1,0 +1,6 @@
+plugins { id 'java' }
+
+dependencies {
+    implementation 'org.bouncycastle:bcprov-jdk18on:1.78'
+    implementation 'com.google.crypto.tink:tink:1.13.0'
+}

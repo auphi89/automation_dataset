@@ -1,0 +1,7 @@
+[requires]
+openssl/3.2.1
+mbedtls/3.5.2
+
+[generators]
+CMakeDeps
+CMakeToolchain

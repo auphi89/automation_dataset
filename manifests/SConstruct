@@ -1,0 +1,2 @@
+env = Environment()
+env.Program('tls_client', ['tls_client.c'], LIBS=['ssl', 'crypto'])

@@ -1,0 +1,8 @@
+{
+  "name": "opswat/mdssc-cbom-composer-fixture",
+  "require": {
+    "phpseclib/phpseclib": "^3.0",
+    "paragonie/sodium_compat": "^1.21",
+    "defuse/php-encryption": "^2.4"
+  }
+}

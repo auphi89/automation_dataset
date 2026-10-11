@@ -1,0 +1,5 @@
+{
+  "name": "mdssc-cbom-vcpkg-fixture",
+  "version": "1.0.0",
+  "dependencies": [ "openssl", "wolfssl", "libsodium" ]
+}
